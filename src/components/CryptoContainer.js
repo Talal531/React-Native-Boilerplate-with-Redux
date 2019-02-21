@@ -26,7 +26,7 @@ class CryptoContainer extends Component {
 
     render() {
         const { crypto } = this.props;
-        if(crypto.isFetching == true || crypto.isFetching == null) return <ActivityIndicator />
+        if(crypto.isFetching == true || crypto.isFetching == null) return <ActivityIndicator size="large" style={{display:'flex', alignItems:'center', backgroundColor:'#ccc', justifyContent: 'center', height: '100%'}} />
 
         return (
             <ScrollView contentContainerStyle={contentContainer}>

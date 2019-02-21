@@ -1,9 +1,9 @@
 {
-  "packagerPort": null,
-  "packagerPid": null,
-  "expoServerPort": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null,
+  "packagerPort": 19001,
+  "packagerPid": 24980,
+  "expoServerPort": 19000,
+  "expoServerNgrokUrl": "https://sr-gv3.anonymous.react-native-redux-crypto-tracker.exp.direct",
+  "packagerNgrokUrl": "https://packager.sr-gv3.anonymous.react-native-redux-crypto-tracker.exp.direct",
+  "ngrokPid": 14024,
   "devToolsPort": 19002
 }

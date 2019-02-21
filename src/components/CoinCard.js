@@ -15,8 +15,9 @@ const CoinCard = (props) => {
                 <Text style={coinSymbol}>{props.symbol}</Text>
                 <Text style={seperator}>|</Text>
                 <Text style={coinName}>{props.coin_name}</Text>
-                <Text style={coinPrice}>{props.price_usd}
+                <Text style={coinPrice}>
                     <Text style={moneySymbol}> $ </Text>
+                    {props.price_usd}
                 </Text>
             </View>
 
